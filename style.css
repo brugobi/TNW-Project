@@ -144,6 +144,8 @@ html {
 }
 
 .nav-logo {
+        /* border: solid red; */
+
   background: linear-gradient(to bottom right,#c09,#f42 85%);
   width: 96px;
   height: 86px;
@@ -189,31 +191,43 @@ html {
 }
 
 .white-nav {
+    /* border: solid red; */
+
   font-size: 14px;
-  height: 40px;
+  height: 48px;
   padding-bottom: 2px;
   padding-left: 25px;
-  padding-right: 15px;
+  /* padding-right: 15px; */
   border-bottom: solid 1px rgb(185, 167, 167);
 }
 
 .white-nav1 {
+    /* border: solid green; */
+
   display: inline-block;
   padding-top: 17px;
 }
 
 .white-nav2 {
+    /* border: solid green; */
+
   display: inline-block;
   float: right;
-  height: 40px;
+  height: 49px;
   width: 50px;
   border-left: solid 1px rgb(185, 167, 167);
 }
 
 .white-nav3 {
+    /* border: solid green; */
+
   display: inline-block;
+  width: 48px;
+  height: 48px;
   float: right;
   display: none;
+  border-left: solid 1px rgb(185, 167, 167);
+
 }
 
 .white-nav a {
@@ -230,4 +244,73 @@ i.fa-search {
   padding-left: 20px;
   padding-top: 12px;
   font-size: 20px;
+}
+
+i.fa-bars {
+    color: rgb(223, 84, 19);
+    padding-left: 20px;
+    padding-top: 12px;
+    font-size: 25px;
+  }
+  
+
+/* ######################################### MEDIA QUERY ############################################ */
+
+@media screen and (max-width: 1210px) {
+    .growth,
+    .neural {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        display: grid;
+        grid-template-columns: min-content auto;
+        grid-template-rows: auto auto;
+    }
+
+    .nav-logo {
+        display: initial;
+        grid-column: 1/2;
+        grid-row: 1/-1;
+    }
+
+    .black-nav {
+        grid-column: 2/2;
+        grid-row: 1/2;
+    }
+
+    .white-nav {
+        grid-column: 2/2;
+        grid-row: 2/2;
+    }
+
+@media screen and (max-width: 767px) {
+    .black-nav,
+    .white-nav1 {
+        display: none;
+    }
+
+    .header {
+        grid-template-rows: auto;
+    }
+
+    .nav-logo {
+        grid-row: 1/-1;
+        height: 51px;
+    }
+
+    .small-logo {
+        margin-top: 15px;
+    }
+
+    .white-nav {
+        grid-row: 1/-1;
+    }
+
+    .white-nav3 {
+        display: initial;
+    }
+
 }
