@@ -1,0 +1,189 @@
+/* CSS RESET FILE */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ######################################### PAGE MAIN SETTINGS ############################################ */
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+/* ######################################### HEADER SECTION ############################################ */
+
+.header {
+  /* background-color: blue; */
+}
+
+.nav-logo {
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  width: 96px;
+  height: 86px;
+  display: none;
+}
+
+.small-logo {
+  width: 66px;
+  height: 16px;
+  position: relative;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.black-nav {
+  background-color: black;
+  font-size: 13px;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+.black-nav a {
+  text-decoration: none;
+  color: rgb(185, 167, 167);
+}
+
+.black-nav a:hover {
+  color: white;
+}
+
+.black-nav1 {
+    /* border: solid red; */
+    display: inline-block;
+}
+
+.black-nav2 {
+    /* border: solid red; */
+    display: inline-block;
+    float: right;
+}
