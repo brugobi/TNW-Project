@@ -445,9 +445,12 @@ i.fa-bars {
 }
 
 .latest-funding-link-second {
+  display: none;
+}
+
+.latest-funding-link-second a {
   text-decoration: none;
   color: rgb(223, 84, 19);
-  display: none;
 }
 
 .funding-flex {
@@ -557,6 +560,18 @@ i.fa-bars {
         grid-row: 2/2;
     }
 
+    .latest-funding-title {
+      display: block;
+      padding-bottom: 10px;
+
+    }
+
+    .latest-funding-links {
+      float: initial;
+      padding-bottom: 10px;
+
+    }
+    
     .lastest-photo {
       flex-basis: 32%;
   }
@@ -659,6 +674,8 @@ i.fa-bars {
     }
 
     .latest-funding-title {
+      /* border: solid red; */
+
       display: block;
     }
 
@@ -669,6 +686,12 @@ i.fa-bars {
     .latest-funding-link-second {
       display: initial;
     }
-}
 
-  
+    .funding-flex {
+      display: block;
+    }
+
+    .fund {
+      margin-bottom: 15px;
+    }
+}
