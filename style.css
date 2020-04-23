@@ -213,7 +213,7 @@ html {
 
   display: inline-block;
   float: right;
-  height: 49px;
+  height: 50px;
   width: 50px;
   border-left: solid 1px rgb(185, 167, 167);
 }
@@ -223,7 +223,7 @@ html {
 
   display: inline-block;
   width: 48px;
-  height: 48px;
+  height: 50px;
   float: right;
   display: none;
   border-left: solid 1px rgb(185, 167, 167);
@@ -241,14 +241,14 @@ html {
 
 i.fa-search {
   color: rgb(185, 167, 167);
-  padding-left: 20px;
+  padding-left: 15px;
   padding-top: 12px;
   font-size: 20px;
 }
 
 i.fa-bars {
     color: rgb(223, 84, 19);
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 12px;
     font-size: 25px;
   }
@@ -285,6 +285,7 @@ i.fa-bars {
         grid-column: 2/2;
         grid-row: 2/2;
     }
+  }
 
 @media screen and (max-width: 767px) {
     .black-nav,
@@ -313,4 +314,4 @@ i.fa-bars {
         display: initial;
     }
 
-}
+  }
