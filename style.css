@@ -349,6 +349,8 @@ i.fa-bars {
   font-size: 25px;
 }
 
+/* ######################################### LATEST NEWS SECTION ############################################ */
+
 .latest-news {
   /* border: solid green; */
   max-width: 1190px;
@@ -400,6 +402,47 @@ i.fa-bars {
 
 .news-title {
   margin-top: 10px;
+}
+
+/* ######################################### LATEST NEWS SECTION ############################################ */
+
+.latest-funding {
+  border: solid greenyellow;
+  max-width: 1190px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+
+.latest-funding-title {
+  /* border: solid red; */
+
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.latest-funding-title a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.latest-funding-links {
+  /* border: solid red; */
+  color: rgb(223, 84, 19);
+  padding-top: 5px;
+  font-size: 17px;
+  display: inline-block;
+  float: right;
+}
+
+.latest-funding-links a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+
 }
 /* ######################################### MEDIA QUERY ############################################ */
 
