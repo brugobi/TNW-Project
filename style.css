@@ -269,7 +269,7 @@ i.fa-bars {
   background-size: cover;
   background-position: center;
 
-  height: 490px;
+  height: 440px;
 
   color: white;
   padding: 20px;
@@ -288,7 +288,7 @@ i.fa-bars {
   background-size: cover;
   background-position: center;
   
-  height: 220px;
+  height: 195px;
 
   color: white;
   padding: 20px;
@@ -309,7 +309,7 @@ i.fa-bars {
   background-size: cover;
   background-position: center;
 
-  height: 220px;
+  height: 195px;
 
   color: white;
   padding: 20px;
@@ -331,7 +331,7 @@ i.fa-bars {
 }
 
 .category {
-  margin-top: 270px;
+  margin-top: 220px;
 }
 
 .title {
@@ -380,6 +380,11 @@ i.fa-bars {
     .white-nav {
         grid-column: 2/2;
         grid-row: 2/2;
+    }
+
+    .big-logo,
+    .date {
+      display: none;
     }
   }
 
