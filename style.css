@@ -404,7 +404,7 @@ i.fa-bars {
   margin-top: 10px;
 }
 
-/* ######################################### LATEST NEWS SECTION ############################################ */
+/* ######################################### LATEST FUNDING SECTION ############################################ */
 
 .latest-funding {
   border: solid greenyellow;
@@ -442,8 +442,83 @@ i.fa-bars {
 .latest-funding-links a {
   text-decoration: none;
   color: rgb(223, 84, 19);
+}
+
+.funding-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fund {
+  flex-basis: 23.5%;
+}
+
+.startup-info {
+    /* border: solid red; */
+
+  background: rgb(223, 84, 19);
+  height: 40px;
+  color: white;
+}
+
+.startup-info img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.startup-info h4 {
+  position: relative;
+  left: 80px;
+  bottom: 50px;
+}
+
+.funding-amount {
+  /* border: solid red; */
+  height: 60px;
+  background: rgb(255, 205, 247);
+}
+
+.funding-amount h4 {
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+
+.funding-amount p {
+  position: relative;
+  left: 80px;
+  top: 15px;
+  font-size: 13px;
+  color: rgb(95, 92, 92);
 
 }
+
+.investor span {
+  font-size: 14px;
+  color: rgb(95, 92, 92);
+
+}
+
+.investor {
+  /* height: 80px; */
+  padding: 20px;
+  background: rgb(255, 224, 250);
+  border-bottom: 1px solid rgb(254, 249, 247) ;
+}
+
+.investor-info {
+  /* height: 80px; */
+  padding: 20px;
+  background: rgb(254, 249, 247);
+  font-size: 13px;
+  color: rgb(95, 92, 92);
+  line-height: 1.5;
+}
+
 /* ######################################### MEDIA QUERY ############################################ */
 
 @media screen and (max-width: 1210px) {
