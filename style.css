@@ -407,7 +407,7 @@ i.fa-bars {
 /* ######################################### LATEST FUNDING SECTION ############################################ */
 
 .latest-funding {
-  border: solid greenyellow;
+  /* border: solid yellow; */
   max-width: 1190px;
   margin: auto;
   padding-left: 20px;
@@ -513,20 +513,106 @@ i.fa-bars {
 }
 
 .investor {
-  /* height: 80px; */
   padding: 20px;
   background: rgb(255, 224, 250);
   border-bottom: 1px solid rgb(254, 249, 247) ;
 }
 
 .investor-info {
-  /* height: 80px; */
+  height: 80px;
   padding: 20px;
   background: rgb(254, 249, 247);
   font-size: 13px;
   color: rgb(95, 92, 92);
   line-height: 1.5;
 }
+
+/* #########################################   CATEGORIES SECTION ############################################ */
+
+.categories {
+  /* border: solid yellow; */
+  max-width: 1190px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+
+.card-list-title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.card-list-title a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.card-photo {
+  
+  background-image: url("./img/down-photo.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 220px;
+
+  color: white;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.card-latest {
+  background: rgb(255, 205, 247);
+  height: 96px;
+  color: rgb(223, 84, 19);
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-latest img {
+  /* border: solid red; */
+  width: 96px;
+  height: 96px;
+}
+
+.link {
+  /* border: solid red; */
+  font-weight: bold;
+}
+
+.card-latest-p {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.latest {
+  margin-bottom: 5px;
+}
+
+.card-latest a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.card-list a {
+  text-decoration: none;
+  color: rgb(70, 68, 68);
+}
+
+.card-list-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(185, 167, 167);
+}
+
+
 
 /* ######################################### MEDIA QUERY ############################################ */
 
