@@ -269,7 +269,7 @@ i.fa-bars {
   background-size: cover;
   background-position: center;
 
-  height: 440px;
+  height: 490px;
 
   color: white;
   padding: 20px;
@@ -288,7 +288,7 @@ i.fa-bars {
   background-size: cover;
   background-position: center;
   
-  height: 195px;
+  height: 220px;
 
   color: white;
   padding: 20px;
@@ -309,7 +309,7 @@ i.fa-bars {
   background-size: cover;
   background-position: center;
 
-  height: 195px;
+  height: 220px;
 
   color: white;
   padding: 20px;
@@ -331,7 +331,7 @@ i.fa-bars {
 }
 
 .category {
-  margin-top: 220px;
+  margin-top: 270px;
 }
 
 .title {
@@ -341,6 +341,7 @@ i.fa-bars {
 
 .author {
   font-size: 13px;
+  margin-top: 10px;
   color: rgb(185, 167, 167);
 }
 
@@ -348,7 +349,25 @@ i.fa-bars {
   font-size: 25px;
 }
 
+.lastest-images-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.lastest-images-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.lastest-photo {
+  width: 20%;
+  border: solid red;
+}
+
+.lastest-images-section img {
+  width: 100%;
+}
 
 /* ######################################### MEDIA QUERY ############################################ */
 
@@ -381,11 +400,6 @@ i.fa-bars {
         grid-column: 2/2;
         grid-row: 2/2;
     }
-
-    .big-logo,
-    .date {
-      display: none;
-    }
   }
 
 @media screen and (max-width: 767px) {
@@ -415,4 +429,29 @@ i.fa-bars {
         display: initial;
     }
 
+    .main-section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+    }
+
+    .main-photo {
+      grid-column: 1/-1;
+      grid-row: 1/1;
+      height: 200px;
+    }
+    
+    .side-photo-up {
+      grid-column: 1/-1;
+      grid-row: 2/2;
+      height: 200px;
+    }
+    
+    .side-photo-down {
+      grid-column: 1/-1;
+      grid-row: 3/3;
+      height: 200px;
+    }
   }
+
+  
