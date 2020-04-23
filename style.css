@@ -444,6 +444,12 @@ i.fa-bars {
   color: rgb(223, 84, 19);
 }
 
+.latest-funding-link-second {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+  display: none;
+}
+
 .funding-flex {
   display: flex;
   justify-content: space-between;
@@ -559,6 +565,14 @@ i.fa-bars {
       margin-right: 33.5%;
     }
 
+    .last-found {
+      display: none;
+    }
+
+    .fund {
+      flex-basis: 32%;
+    }
+
 @media screen and (max-width: 767px) {
     .black-nav,
     .white-nav1 {
@@ -642,6 +656,18 @@ i.fa-bars {
     .news-title {
       font-size: 15px;
       width: 80%;
+    }
+
+    .latest-funding-title {
+      display: block;
+    }
+
+    .latest-funding-links {
+      display: none;
+    }
+
+    .latest-funding-link-second {
+      display: initial;
     }
 }
 
