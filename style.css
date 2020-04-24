@@ -491,12 +491,21 @@ i.fa-bars {
 /* ######################################## CATEGORIES SECTION ############################################ */
 
 .categories {
-  /* border: solid yellow; */
+  border: solid yellow;
   max-width: 1190px;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 32%;
+  margin-bottom: 50px;
 }
 
 .card-list-title {
@@ -512,7 +521,7 @@ i.fa-bars {
 }
 
 .card-photo {
-  background-image: url("./img/down-photo.jpg");
+  background-image: url("./img/tech.png");
   background-size: cover;
   background-position: center;
   height: 220px;
@@ -521,6 +530,13 @@ i.fa-bars {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  font-size: 14px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
 
 .card-latest {
@@ -529,6 +545,7 @@ i.fa-bars {
   color: rgb(223, 84, 19);
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
 
 .card-latest img {
@@ -559,12 +576,14 @@ i.fa-bars {
 .card-list a {
   text-decoration: none;
   color: rgb(70, 68, 68);
+  font-size: 13px;
 }
 
 .card-list-link {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(185, 167, 167);
+  line-height: 1.3;
 }
 
 /* ######################################### MEDIA QUERY ############################################ */
@@ -624,6 +643,10 @@ i.fa-bars {
 
     .fund {
       flex-basis: 32%;
+    }
+
+    .card {
+      flex-basis: 49%;
     }
 }
 
@@ -733,4 +756,9 @@ i.fa-bars {
     .fund {
       margin-bottom: 15px;
     }
+
+    .card {
+      flex-basis: 100%;
+    }
+
 }
