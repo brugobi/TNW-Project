@@ -615,7 +615,7 @@ i.fa-bars {
   border-radius: 100%;
   font-size: 25px;
   background-color: rgb(38, 38, 38);
-  border-style: solid rgb(38, 38, 38);
+  border: solid rgb(38, 38, 38);
 }
 
 .footer-buttons {
