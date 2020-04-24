@@ -140,7 +140,7 @@ html {
 /* ######################################### HEADER SECTION ############################################ */
 
 .nav-logo {
-  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 96px;
   height: 86px;
   display: none;
@@ -167,6 +167,66 @@ html {
 .black-nav a {
   text-decoration: none;
   color: rgb(185, 167, 167);
+}
+
+.lastest-images-section a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.white-nav a {
+  text-decoration: none;
+  color: rgb(185, 167, 167);
+}
+
+.latest-news-title a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.latest-news-title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.latest-funding-title a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.latest-funding-links a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.latest-funding-link-second a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+  padding-top: 20px;
+}
+
+.card-list-title a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.card-latest a {
+  text-decoration: none;
+  color: rgb(223, 84, 19);
+}
+
+.card-list a {
+  text-decoration: none;
+  color: rgb(70, 68, 68);
+  font-size: 13px;
+}
+
+.footer-1 a {
+  text-decoration: none;
+  color: rgb(154, 154, 154);
+  font-size: 14px;
 }
 
 .black-nav a:hover {
@@ -204,17 +264,11 @@ html {
 }
 
 .white-nav3 {
-  display: inline-block;
   width: 48px;
   height: 50px;
   float: right;
   display: none;
   border-left: solid 1px rgb(185, 167, 167);
-}
-
-.white-nav a {
-  text-decoration: none;
-  color: rgb(185, 167, 167);
 }
 
 .white-nav a:hover {
@@ -229,12 +283,12 @@ i.fa-search {
 }
 
 i.fa-bars {
-    color: rgb(223, 84, 19);
-    padding-left: 15px;
-    padding-top: 12px;
-    font-size: 25px;
-  }
-  
+  color: rgb(223, 84, 19);
+  padding-left: 15px;
+  padding-top: 12px;
+  font-size: 25px;
+}
+
 /* ######################################### MAIN SECTION ############################################ */
 
 .main-section {
@@ -326,27 +380,10 @@ i.fa-bars {
   padding-top: 40px;
 }
 
-.latest-news-title {
-  font-size: 25px;
-  font-weight: bold;
-  padding-bottom: 20px;
-}
-
-.latest-news-title a {
-  text-decoration: none;
-  color: rgb(223, 84, 19);
-}
-
 .lastest-images-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.lastest-images-section a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
 }
 
 .lastest-photo {
@@ -379,17 +416,11 @@ i.fa-bars {
   padding-top: 40px;
 }
 
-
 .latest-funding-title {
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 20px;
   display: inline-block;
-}
-
-.latest-funding-title a {
-  text-decoration: none;
-  color: rgb(223, 84, 19);
 }
 
 .latest-funding-links {
@@ -400,22 +431,11 @@ i.fa-bars {
   float: right;
 }
 
-.latest-funding-links a {
-  text-decoration: none;
-  color: rgb(223, 84, 19);
-}
-
 .latest-funding-link-second {
   display: none;
 }
 
-.latest-funding-link-second a {
-  text-decoration: none;
-  color: rgb(223, 84, 19);
-  padding-top: 20px;
-}
-
-.latest-funding-link-second div{
+.latest-funding-link-second div {
   padding-bottom: 20px;
 }
 
@@ -471,7 +491,7 @@ i.fa-bars {
 .investor {
   padding: 20px;
   background: rgb(255, 224, 250);
-  border-bottom: 1px solid rgb(254, 249, 247) ;
+  border-bottom: 1px solid rgb(254, 249, 247);
 }
 
 .investor span {
@@ -491,13 +511,11 @@ i.fa-bars {
 /* ######################################## CATEGORIES SECTION ############################################ */
 
 .categories {
-  /* border: solid yellow; */
   max-width: 1190px;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
-
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -513,11 +531,6 @@ i.fa-bars {
   font-weight: bold;
   padding-bottom: 20px;
   padding-top: 20px;
-}
-
-.card-list-title a {
-  text-decoration: none;
-  color: rgb(223, 84, 19);
 }
 
 .card-photo {
@@ -549,13 +562,11 @@ i.fa-bars {
 }
 
 .card-latest img {
-  /* border: solid red; */
   width: 96px;
   height: 96px;
 }
 
 .link {
-  /* border: solid red; */
   font-weight: bold;
 }
 
@@ -566,17 +577,6 @@ i.fa-bars {
 
 .latest {
   margin-bottom: 5px;
-}
-
-.card-latest a {
-  text-decoration: none;
-  color: rgb(223, 84, 19);
-}
-
-.card-list a {
-  text-decoration: none;
-  color: rgb(70, 68, 68);
-  font-size: 13px;
 }
 
 .card-list-link {
@@ -591,10 +591,11 @@ i.fa-bars {
 .prices {
   padding-top: 5px;
 }
-.price1{
+
+.price1 {
   color: rgb(187, 181, 181);
   text-decoration: line-through;
-  font-size: 14px
+  font-size: 14px;
 }
 
 .price2 {
@@ -630,11 +631,6 @@ i.fa-bars {
 
 i.fa {
   color: white;
-}
-.footer-1 a {
-  text-decoration: none;
-  color: rgb(154, 154, 154);
-  font-size: 14px;
 }
 
 .footer-1 a:hover {
@@ -688,142 +684,135 @@ i.fa {
     padding-bottom: 10px;
   }
 
-    .latest-funding-links {
-      float: initial;
-      padding-bottom: 10px;
-
-    }
-    
-    .lastest-photo {
-      flex-basis: 32%;
+  .latest-funding-links {
+    float: initial;
+    padding-bottom: 10px;
   }
 
-    .photo9 {
-      margin-right: 33.5%;
-    }
+  .lastest-photo {
+    flex-basis: 32%;
+  }
 
-    .last-found {
-      display: none;
-    }
+  .photo9 {
+    margin-right: 33.5%;
+  }
 
-    .fund {
-      flex-basis: 32%;
-    }
+  .last-found {
+    display: none;
+  }
 
-    .card {
-      flex-basis: 49%;
-    }
+  .fund {
+    flex-basis: 32%;
+  }
+
+  .card {
+    flex-basis: 49%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .black-nav,
-    .white-nav1 {
-        display: none;
-    }
-
-    .header {
-        grid-template-rows: auto;
-    }
-
-    .nav-logo {
-        grid-row: 1/-1;
-        height: 51px;
-    }
-
-    .small-logo {
-        margin-top: 15px;
-    }
-
-    .white-nav {
-        grid-row: 1/-1;
-    }
-
-    .white-nav3 {
-        display: initial;
-    }
-
-    .main-section {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto;
-    }
-
-    .main-photo {
-      grid-column: 1/-1;
-      grid-row: 1/1;
-      height: 200px;
-    }
-    
-    .side-photo-up {
-      grid-column: 1/-1;
-      grid-row: 2/2;
-      height: 200px;
-    }
-    
-    .side-photo-down {
-      grid-column: 1/-1;
-      grid-row: 3/3;
-      height: 200px;
-    }
-
-    .lastest-images-section {
-      display: block;
-    }
-
-    .lastest-images-section img {
-      width: 75px;
-      height: 75px;
-    }
-
-    .news-title {
-      position: relative;
-      left: 85px;
-      bottom: 85px;
-    }
-
-    .news-author {
-      position: relative;
-      left: 85px;
-      bottom: 85px;
-    }
-
-    .lastest-photo {
-      height: 75px;
-    }
-
-    .photo9 {
-      margin-right: initial;
+  .black-nav,
+  .white-nav1 {
+    display: none;
   }
 
-    .news-title {
-      font-size: 15px;
-      width: 80%;
-    }
+  .header {
+    grid-template-rows: auto;
+  }
 
-    .latest-funding-title {
-      /* border: solid red; */
+  .nav-logo {
+    grid-row: 1/-1;
+    height: 51px;
+  }
 
-      display: block;
-    }
+  .small-logo {
+    margin-top: 15px;
+  }
 
-    .latest-funding-links {
-      display: none;
-    }
+  .white-nav {
+    grid-row: 1/-1;
+  }
 
-    .latest-funding-link-second {
-      display: initial;
-    }
+  .white-nav3 {
+    display: initial;
+  }
 
-    .funding-flex {
-      display: block;
-    }
+  .main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
 
-    .fund {
-      margin-bottom: 15px;
-    }
+  .main-photo {
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    height: 200px;
+  }
 
-    .card {
-      flex-basis: 100%;
-    }
+  .side-photo-up {
+    grid-column: 1/-1;
+    grid-row: 2/2;
+    height: 200px;
+  }
 
+  .side-photo-down {
+    grid-column: 1/-1;
+    grid-row: 3/3;
+    height: 200px;
+  }
+
+  .lastest-images-section {
+    display: block;
+  }
+
+  .lastest-images-section img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .news-title {
+    position: relative;
+    left: 85px;
+    bottom: 85px;
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .news-author {
+    position: relative;
+    left: 85px;
+    bottom: 85px;
+  }
+
+  .lastest-photo {
+    height: 75px;
+  }
+
+  .photo9 {
+    margin-right: initial;
+  }
+
+  .latest-funding-title {
+    display: block;
+  }
+
+  .latest-funding-links {
+    display: none;
+  }
+
+  .latest-funding-link-second {
+    display: initial;
+  }
+
+  .funding-flex {
+    display: block;
+  }
+
+  .fund {
+    margin-bottom: 15px;
+  }
+
+  .card {
+    flex-basis: 100%;
+  }
 }
