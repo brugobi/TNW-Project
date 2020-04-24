@@ -586,7 +586,7 @@ i.fa-bars {
   line-height: 1.3;
 }
 
-/* ######################################## LSTEST DEALS SECTION ########################################## */
+/* ######################################## LATEST DEALS SECTION ########################################## */
 
 .prices {
   padding-top: 5px;
@@ -602,7 +602,7 @@ i.fa-bars {
   color: gray;
 }
 
-/* ######################################### MAIN SECTION ############################################ */
+/* ######################################### FOOTER SECTION ############################################ */
 
 .footer-1 {
   background-color: rgb(16, 16, 16);
@@ -629,7 +629,7 @@ i.fa-bars {
   justify-content: center;
 }
 
-i.fa {
+.footer-buttons .fa {
   color: white;
 }
 
@@ -638,8 +638,7 @@ i.fa {
 }
 
 .footer-2 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding-top: 60px;
   height: 90px;
   color: white;
@@ -749,6 +748,10 @@ i.fa {
     height: 200px;
   }
 
+  .title {
+    font-size: 25px;
+  }
+
   .side-photo-up {
     grid-column: 1/-1;
     grid-row: 2/2;
@@ -779,6 +782,12 @@ i.fa {
   }
 
   .news-author {
+    position: relative;
+    left: 85px;
+    bottom: 85px;
+  }
+
+  .prices {
     position: relative;
     left: 85px;
     bottom: 85px;
