@@ -618,15 +618,13 @@ i.fa-bars {
 
 .footer-buttons {
   display: flex;
-  padding-left: 500px;
-  padding-right: 500px;
-  justify-content: space-between;
+  justify-content: center;
+  padding-top: 30px;
 }
 
 .footer-links {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
 }
 
 i.fa {
