@@ -606,7 +606,8 @@ i.fa-bars {
 .footer-1 {
   background-color: rgb(16, 16, 16);
   height: 20%;
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .footer-1 button {
