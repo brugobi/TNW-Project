@@ -601,6 +601,57 @@ i.fa-bars {
   color: gray;
 }
 
+/* ######################################### MAIN SECTION ############################################ */
+
+.footer-1 {
+  background-color: rgb(16, 16, 16);
+  height: 150px;
+  padding-top: 40px;
+}
+
+.footer-1 button {
+  border-radius: 100%;
+  font-size: 25px;
+  background-color: rgb(38, 38, 38);
+  border-style: solid rgb(38, 38, 38);
+}
+
+.footer-buttons {
+  display: flex;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+i.fa {
+  color: white;
+}
+.footer-1 a {
+  text-decoration: none;
+  color: rgb(154, 154, 154);
+  font-size: 14px;
+}
+
+.footer-1 a:hover {
+  color: white;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  height: 90px;
+  color: white;
+  font-size: 12px;
+  background-color: rgb(0, 0, 0);
+}
+
 /* ######################################### MEDIA QUERY ############################################ */
 
 @media screen and (max-width: 1210px) {
