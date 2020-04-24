@@ -139,13 +139,7 @@ html {
 
 /* ######################################### HEADER SECTION ############################################ */
 
-.header {
-  /* background-color: blue; */
-}
-
 .nav-logo {
-        /* border: solid red; */
-
   background: linear-gradient(to bottom right,#c09,#f42 85%);
   width: 96px;
   height: 86px;
@@ -180,37 +174,28 @@ html {
 }
 
 .black-nav1 {
-    /* border: solid red; */
-    display: inline-block;
+  display: inline-block;
 }
 
 .black-nav2 {
-    /* border: solid red; */
-    display: inline-block;
-    float: right;
+  display: inline-block;
+  float: right;
 }
 
 .white-nav {
-    /* border: solid red; */
-
   font-size: 14px;
   height: 48px;
   padding-bottom: 2px;
   padding-left: 25px;
-  /* padding-right: 15px; */
   border-bottom: solid 1px rgb(185, 167, 167);
 }
 
 .white-nav1 {
-    /* border: solid green; */
-
   display: inline-block;
   padding-top: 17px;
 }
 
 .white-nav2 {
-    /* border: solid green; */
-
   display: inline-block;
   float: right;
   height: 50px;
@@ -219,15 +204,12 @@ html {
 }
 
 .white-nav3 {
-    /* border: solid green; */
-
   display: inline-block;
   width: 48px;
   height: 50px;
   float: right;
   display: none;
   border-left: solid 1px rgb(185, 167, 167);
-
 }
 
 .white-nav a {
@@ -264,16 +246,12 @@ i.fa-bars {
 .main-photo {
   grid-column: 1/3;
   grid-row: 1/-1;
-
   background-image: url("./img/main-photo.jpg");
   background-size: cover;
   background-position: center;
-
   height: 490px;
-
   color: white;
   padding: 20px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -283,41 +261,30 @@ i.fa-bars {
 .side-photo-up {
   grid-column: 3/3;
   grid-row: 1/2;
-
   background-image: url("./img/up-photo.jpg");
   background-size: cover;
   background-position: center;
-  
   height: 220px;
-
   color: white;
   padding: 20px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
   border: 5px solid rgb(235, 235, 235);
-
 }
 
 .side-photo-down {
   grid-column: 3/3;
   grid-row: 2/2;
-
   background-image: url("./img/down-photo.jpg");
   background-size: cover;
   background-position: center;
-
   height: 220px;
-
   color: white;
   padding: 20px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
   border: 5px solid rgb(235, 235, 235);
 }
 
@@ -352,7 +319,6 @@ i.fa-bars {
 /* ######################################### LATEST NEWS SECTION ############################################ */
 
 .latest-news {
-  /* border: solid green; */
   max-width: 1190px;
   margin: auto;
   padding-left: 20px;
@@ -385,7 +351,6 @@ i.fa-bars {
 
 .lastest-photo {
   flex-basis: 23%;
-  /* border: solid red; */
   margin-bottom: 20px;
 }
 
@@ -407,7 +372,6 @@ i.fa-bars {
 /* ######################################### LATEST FUNDING SECTION ############################################ */
 
 .latest-funding {
-  /* border: solid yellow; */
   max-width: 1190px;
   margin: auto;
   padding-left: 20px;
@@ -417,8 +381,6 @@ i.fa-bars {
 
 
 .latest-funding-title {
-  /* border: solid red; */
-
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 20px;
@@ -431,7 +393,6 @@ i.fa-bars {
 }
 
 .latest-funding-links {
-  /* border: solid red; */
   color: rgb(223, 84, 19);
   padding-top: 5px;
   font-size: 17px;
@@ -451,6 +412,11 @@ i.fa-bars {
 .latest-funding-link-second a {
   text-decoration: none;
   color: rgb(223, 84, 19);
+  padding-top: 20px;
+}
+
+.latest-funding-link-second div{
+  padding-bottom: 20px;
 }
 
 .funding-flex {
@@ -463,8 +429,6 @@ i.fa-bars {
 }
 
 .startup-info {
-    /* border: solid red; */
-
   background: rgb(223, 84, 19);
   height: 40px;
   color: white;
@@ -486,7 +450,6 @@ i.fa-bars {
 }
 
 .funding-amount {
-  /* border: solid red; */
   height: 60px;
   background: rgb(255, 205, 247);
 }
@@ -503,19 +466,17 @@ i.fa-bars {
   top: 15px;
   font-size: 13px;
   color: rgb(95, 92, 92);
-
-}
-
-.investor span {
-  font-size: 14px;
-  color: rgb(95, 92, 92);
-
 }
 
 .investor {
   padding: 20px;
   background: rgb(255, 224, 250);
   border-bottom: 1px solid rgb(254, 249, 247) ;
+}
+
+.investor span {
+  font-size: 14px;
+  color: rgb(95, 92, 92);
 }
 
 .investor-info {
@@ -527,7 +488,7 @@ i.fa-bars {
   line-height: 1.5;
 }
 
-/* #########################################   CATEGORIES SECTION ############################################ */
+/* ######################################## CATEGORIES SECTION ############################################ */
 
 .categories {
   /* border: solid yellow; */
@@ -537,7 +498,6 @@ i.fa-bars {
   padding-right: 20px;
   padding-top: 40px;
 }
-
 
 .card-list-title {
   font-size: 25px;
@@ -552,20 +512,15 @@ i.fa-bars {
 }
 
 .card-photo {
-  
   background-image: url("./img/down-photo.jpg");
   background-size: cover;
   background-position: center;
-
   height: 220px;
-
   color: white;
   padding: 10px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
 
 .card-latest {
@@ -612,45 +567,42 @@ i.fa-bars {
   border-bottom: 1px solid rgb(185, 167, 167);
 }
 
-
-
 /* ######################################### MEDIA QUERY ############################################ */
 
 @media screen and (max-width: 1210px) {
-    .growth,
-    .neural {
-        display: none;
-    }
+  .growth,
+  .neural {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .header {
-        display: grid;
-        grid-template-columns: min-content auto;
-        grid-template-rows: auto auto;
-    }
+  .header {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-rows: auto auto;
+  }
 
-    .nav-logo {
-        display: initial;
-        grid-column: 1/2;
-        grid-row: 1/-1;
-    }
+  .nav-logo {
+    display: initial;
+    grid-column: 1/2;
+    grid-row: 1/-1;
+  }
 
-    .black-nav {
-        grid-column: 2/2;
-        grid-row: 1/2;
-    }
+  .black-nav {
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
 
-    .white-nav {
-        grid-column: 2/2;
-        grid-row: 2/2;
-    }
+  .white-nav {
+    grid-column: 2/2;
+    grid-row: 2/2;
+  }
 
-    .latest-funding-title {
-      display: block;
-      padding-bottom: 10px;
-
-    }
+  .latest-funding-title {
+    display: block;
+    padding-bottom: 10px;
+  }
 
     .latest-funding-links {
       float: initial;
@@ -673,6 +625,7 @@ i.fa-bars {
     .fund {
       flex-basis: 32%;
     }
+}
 
 @media screen and (max-width: 767px) {
     .black-nav,
