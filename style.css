@@ -135,6 +135,7 @@ table {
 
 html {
   font-family: Arial, sans-serif;
+  min-width: 400px;
 }
 
 /* ######################################### HEADER SECTION ############################################ */
@@ -400,6 +401,7 @@ i.fa-bars {
   font-size: 13px;
   margin-top: 10px;
   color: rgb(185, 167, 167);
+  display: inline-block;
 }
 
 .news-title {
@@ -467,6 +469,7 @@ i.fa-bars {
   position: relative;
   left: 80px;
   bottom: 50px;
+  width: max-content;
 }
 
 .funding-amount {
@@ -478,6 +481,7 @@ i.fa-bars {
   position: relative;
   left: 80px;
   top: 10px;
+  width: max-content;
 }
 
 .funding-amount p {
@@ -486,6 +490,7 @@ i.fa-bars {
   top: 15px;
   font-size: 13px;
   color: rgb(95, 92, 92);
+  width: max-content;
 }
 
 .investor {
@@ -590,6 +595,7 @@ i.fa-bars {
 
 .prices {
   padding-top: 5px;
+  display: inline-block;
 }
 
 .price1 {
