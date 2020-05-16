@@ -14,7 +14,7 @@ The website is a clone of "TheNextWeb.com" website.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/AhmedTohamy01/TNW-Project/TNW-Layout/index.html)
+[Live Demo Link](https://raw.githack.com/AhmedTohamy01/TNW-Project/master/index.html)
 
 
 ## Authors
