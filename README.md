@@ -4,7 +4,7 @@
 
 ![screenshot](./img/screenshot.jpg)
 
-The website is a clone of "TheNextWeb.com" website.
+A clone of TNW website (TheNextWeb.com) home page @ 2020.
 
 ## Built With
 
