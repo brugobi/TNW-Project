@@ -75,6 +75,12 @@ git clone https://ahmedtohamy01.github.io/TNW-Project
 - Linkedin: https://www.linkedin.com/in/ATohamy
 - Email: Ahmed-Tohamy@outlook.com
 
+👤 **Bruna Gobi**
+
+- Github: https://github.com/brugobi
+- Twitter: https://twitter.com/BrunaGobi2
+- Linkedin: https://www.linkedin.com/in/bruna-gobi-08854760/
+
 # Show Your Support
 
 Give a ⭐️ if you like this project!
