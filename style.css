@@ -104,10 +104,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 ol,
 ul {
   list-style: none;
@@ -138,6 +134,11 @@ html {
   min-width: 400px;
 }
 
+body {
+  max-width: 1500px;
+  margin: auto;
+}
+
 /* ######################################### HEADER SECTION ############################################ */
 
 .nav-logo {
@@ -145,6 +146,10 @@ html {
   width: 96px;
   height: 86px;
   display: none;
+}
+
+.nav-logo:hover {
+  background-image: url(./img/new/1.gif);
 }
 
 .small-logo {
@@ -301,9 +306,9 @@ i.fa-bars {
 .main-photo {
   grid-column: 1/3;
   grid-row: 1/-1;
-  background-image: url("./img/main-photo.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("./img/new/bg2.png"), url("./img/new/4.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
   height: 490px;
   color: white;
   padding: 20px;
@@ -316,9 +321,9 @@ i.fa-bars {
 .side-photo-up {
   grid-column: 3/3;
   grid-row: 1/2;
-  background-image: url("./img/up-photo.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("./img/new/bg2.png"), url("./img/new/2.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
   height: 220px;
   color: white;
   padding: 20px;
@@ -331,9 +336,9 @@ i.fa-bars {
 .side-photo-down {
   grid-column: 3/3;
   grid-row: 2/2;
-  background-image: url("./img/down-photo.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("./img/new/bg2.png"), url("./img/new/7.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
   height: 220px;
   color: white;
   padding: 20px;
@@ -364,7 +369,7 @@ i.fa-bars {
 .author {
   font-size: 13px;
   margin-top: 10px;
-  color: rgb(185, 167, 167);
+  color: white;
 }
 
 .side-title {
@@ -389,6 +394,7 @@ i.fa-bars {
 
 .lastest-photo {
   flex-basis: 23%;
+  height: 300px;
   margin-bottom: 20px;
 }
 
@@ -406,6 +412,7 @@ i.fa-bars {
 
 .news-title {
   margin-top: 10px;
+  line-height: 1.2;
 }
 
 /* ######################################### LATEST FUNDING SECTION ############################################ */
@@ -549,6 +556,43 @@ i.fa-bars {
   flex-direction: column;
   justify-content: flex-end;
   font-size: 14px;
+  line-height: 1.3;
+}
+
+.card1 {
+  background-image: url("./img/new/bg2.png"), url("./img/new/27.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
+}
+
+.card2 {
+  background-image: url("./img/new/bg2.png"), url("./img/new/26.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
+}
+
+.card3 {
+  background-image: url("./img/new/bg2.png"), url("./img/new/29.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
+}
+
+.card4 {
+  background-image: url("./img/new/bg2.png"), url("./img/new/30.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
+}
+
+.card5 {
+  background-image: url("./img/new/bg2.png"), url("./img/new/31.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
+}
+
+.card6 {
+  background-image: url("./img/new/bg2.png"), url("./img/new/28.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;
 }
 
 .card-title {
@@ -557,8 +601,19 @@ i.fa-bars {
   padding-bottom: 5px;
 }
 
+/* stylelint-disable */
+.card-title a {
+  color: white;
+  text-decoration: none;
+}
+/* stylelint-enable */
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
 .card-latest {
-  background: rgb(255, 205, 247);
+  background: rgb(250, 220, 245);
   height: 96px;
   color: rgb(223, 84, 19);
   display: flex;
@@ -580,6 +635,10 @@ i.fa-bars {
   margin-left: 10px;
 }
 
+.card-latest-p .link:hover {
+  text-decoration: underline;
+}
+
 .latest {
   margin-bottom: 5px;
 }
@@ -589,6 +648,10 @@ i.fa-bars {
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(185, 167, 167);
   line-height: 1.3;
+}
+
+.card-list-link a:hover {
+  color: gray;
 }
 
 /* ######################################## LATEST DEALS SECTION ########################################## */
@@ -619,9 +682,14 @@ i.fa-bars {
 
 .footer-1 button {
   border-radius: 100%;
-  font-size: 25px;
+  font-size: 20px;
   background-color: rgb(38, 38, 38);
   border: solid rgb(38, 38, 38);
+  padding: 5px 10px;
+}
+
+.footer-1 button:hover {
+  background-color: rgb(16, 16, 16);
 }
 
 .footer-buttons {
@@ -631,13 +699,26 @@ i.fa-bars {
 }
 
 .footer-links {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
+/* stylelint-disable */
+.footer-links a {
+  font-size: 12px;
+}
+/* stylelint-enable */
+
 .footer-buttons .fa {
   color: white;
 }
+
+/* stylelint-disable */
+.footer-1 a {
+  padding: 10px;
+}
+/* stylelint-enable */
 
 .footer-1 a:hover {
   color: white;
@@ -648,8 +729,9 @@ i.fa-bars {
   padding-top: 60px;
   height: 90px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   background-color: rgb(0, 0, 0);
+  line-height: 1.5;
 }
 
 /* ######################################### MEDIA QUERY ############################################ */
@@ -829,5 +911,30 @@ i.fa-bars {
 
   .card {
     flex-basis: 100%;
+  }
+
+  .footer-2 {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-buttons {
+    font-size: 12px;
+  }
+
+  .footer-links {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 370px;
+    margin-left: 1px;
+  }
+
+  .news-title {
+    width: 70%;
   }
 }
