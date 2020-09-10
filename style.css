@@ -104,10 +104,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 ol,
 ul {
   list-style: none;
@@ -312,7 +308,7 @@ i.fa-bars {
   grid-row: 1/-1;
   background-image: url("./img/new/bg2.png"), url("./img/new/4.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
   height: 490px;
   color: white;
   padding: 20px;
@@ -327,7 +323,7 @@ i.fa-bars {
   grid-row: 1/2;
   background-image: url("./img/new/bg2.png"), url("./img/new/2.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
   height: 220px;
   color: white;
   padding: 20px;
@@ -342,7 +338,7 @@ i.fa-bars {
   grid-row: 2/2;
   background-image: url("./img/new/bg2.png"), url("./img/new/7.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
   height: 220px;
   color: white;
   padding: 20px;
@@ -566,39 +562,38 @@ i.fa-bars {
 .card1 {
   background-image: url("./img/new/bg2.png"), url("./img/new/27.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
 }
 
 .card2 {
   background-image: url("./img/new/bg2.png"), url("./img/new/26.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
 }
 
 .card3 {
   background-image: url("./img/new/bg2.png"), url("./img/new/29.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
 }
 
 .card4 {
   background-image: url("./img/new/bg2.png"), url("./img/new/30.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
 }
 
 .card5 {
   background-image: url("./img/new/bg2.png"), url("./img/new/31.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
 }
 
 .card6 {
   background-image: url("./img/new/bg2.png"), url("./img/new/28.jpg");
   background-size: 100% 100%;
-  transition: 0.7s ease;;
+  transition: 0.7s ease;
 }
-
 
 .card-title {
   font-weight: bold;
@@ -606,10 +601,12 @@ i.fa-bars {
   padding-bottom: 5px;
 }
 
+/* stylelint-disable */
 .card-title a {
   color: white;
   text-decoration: none;
 }
+/* stylelint-enable */
 
 .card-title a:hover {
   text-decoration: underline;
@@ -707,17 +704,21 @@ i.fa-bars {
   justify-content: center;
 }
 
+/* stylelint-disable */
 .footer-links a {
   font-size: 12px;
 }
+/* stylelint-enable */
 
 .footer-buttons .fa {
   color: white;
 }
 
+/* stylelint-disable */
 .footer-1 a {
   padding: 10px;
 }
+/* stylelint-enable */
 
 .footer-1 a:hover {
   color: white;
@@ -918,7 +919,6 @@ i.fa-bars {
 }
 
 @media screen and (max-width: 450px) {
- 
   .footer-buttons {
     font-size: 12px;
   }
