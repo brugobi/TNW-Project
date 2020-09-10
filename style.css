@@ -138,6 +138,11 @@ html {
   min-width: 400px;
 }
 
+body {
+  max-width: 1400px;
+  margin: auto;
+}
+
 /* ######################################### HEADER SECTION ############################################ */
 
 .nav-logo {
