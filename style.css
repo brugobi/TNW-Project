@@ -398,6 +398,7 @@ i.fa-bars {
 
 .lastest-photo {
   flex-basis: 23%;
+  height: 300px;
   margin-bottom: 20px;
 }
 
@@ -415,6 +416,7 @@ i.fa-bars {
 
 .news-title {
   margin-top: 10px;
+  line-height: 1.2;
 }
 
 /* ######################################### LATEST FUNDING SECTION ############################################ */
