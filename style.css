@@ -139,7 +139,7 @@ html {
 }
 
 body {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -840,5 +840,18 @@ i.fa-bars {
 
   .card {
     flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    border: solid yellow;
+    width: 370px;
+    margin-left: 1px;
+  }
+
+  .news-title {
+    border: solid rebeccapurple;
+    width: 70%;
   }
 }
