@@ -930,13 +930,11 @@ i.fa-bars {
 
 @media screen and (max-width: 375px) {
   body {
-    /* border: solid yellow; */
     width: 370px;
     margin-left: 1px;
   }
 
   .news-title {
-    /* border: solid rebeccapurple; */
     width: 70%;
   }
 }
