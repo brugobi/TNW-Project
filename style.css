@@ -152,6 +152,10 @@ body {
   display: none;
 }
 
+.nav-logo:hover {
+  background-image: url(./img/new/1.gif);
+}
+
 .small-logo {
   width: 66px;
   height: 16px;
