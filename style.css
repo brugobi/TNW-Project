@@ -310,9 +310,9 @@ i.fa-bars {
 .main-photo {
   grid-column: 1/3;
   grid-row: 1/-1;
-  background-image: url("./img/new/4.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("./img/new/bg2.png"), url("./img/new/4.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;;
   height: 490px;
   color: white;
   padding: 20px;
@@ -325,9 +325,9 @@ i.fa-bars {
 .side-photo-up {
   grid-column: 3/3;
   grid-row: 1/2;
-  background-image: url("./img/new/2.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("./img/new/bg2.png"), url("./img/new/2.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;;
   height: 220px;
   color: white;
   padding: 20px;
@@ -340,9 +340,9 @@ i.fa-bars {
 .side-photo-down {
   grid-column: 3/3;
   grid-row: 2/2;
-  background-image: url("./img/new/7.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("./img/new/bg2.png"), url("./img/new/7.jpg");
+  background-size: 100% 100%;
+  transition: 0.7s ease;;
   height: 220px;
   color: white;
   padding: 20px;
