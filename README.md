@@ -11,7 +11,7 @@
   This is a Fully Responsive clone of the famous TNW website. The Next Web (TNW) is a famous website and annual series of conferences focused on new technology and start-up companies    in Europe. There is No JavaScript or Back-end in the project. This project to show my abilities in building a fully responsive advanced website like TNW using only Pure HTML & CSS.
 
   <br><br> 
-  <strong><em>Take a look at the live version here:</em></strong> https://ahmedtohamy01.github.io/TNW-Project/ :octocat: :heart_eyes:
+  <strong><em>Take a look at the live version here:</em></strong> https://tnw-project-91hlz5bo7.vercel.app/ :octocat: :heart_eyes:
 </p>
 
 ## Table of Contents
@@ -40,7 +40,7 @@
 
 # Live Demo
 
-***Take a look at the live version here:*** https://ahmedtohamy01.github.io/TNW-Project/ :octocat: :heart_eyes: 
+***Take a look at the live version here:*** https://tnw-project-91hlz5bo7.vercel.app/ :octocat: :heart_eyes: 
 
 
 # Technology Used
